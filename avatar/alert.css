@@ -1,0 +1,129 @@
+@import url(../styles.css);
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-size: 62.5%;
+}
+
+.avatar>img {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    background-color: var(--white);
+    max-width: 90%;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.avatar {
+    display: inline-block;
+    margin: 5px;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #312f2f;
+    cursor: pointer;
+}
+
+.avatar__2xs {
+    width: 25px;
+    height: 25px;
+}
+
+.avatar__xs {
+    width: 30px;
+    height: 30px;
+}
+
+.avatar__sm {
+    width: 40px;
+    height: 40px;
+}
+
+.avatar__md {
+    width: 50px;
+    height: 50px;
+}
+
+.avatar__lg {
+    width: 60px;
+    height: 60px;
+}
+
+.avatar__xl {
+    width: 75px;
+    height: 75px;
+}
+
+.avatar__2xl {
+    width: 100px;
+    height: 100px;
+}
+
+.avatar__group {
+    display: flex;
+    padding: 1rem 2rem;
+}
+
+.avatar__group .avatar {
+    margin-left: -20px;
+    position: relative;
+}
+
+.avatar__extra {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: #312f2f;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-left: -15px;
+}
+
+.avatar__with__badge {
+    width: 70px;
+}
+
+.avatar__default {
+    display: inline-block;
+    border: 2px solid var(--white);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: -25px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.avatar__with__badge__active {
+    background-color: var(--success);
+}
+
+.avatar__with__badge__danger {
+    background-color: var(--danger);
+}
+
+.avatar__with__badge__primary {
+    background-color: var(--primary);
+}
+
+.avatar__with__badge__offline {
+    background-color: var(--offline);
+}
