@@ -1,0 +1,90 @@
+@import url(../styles.css);
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--bg-white);
+    font-size: 62.5%;
+}
+
+.container {
+    background-color: var(--white);
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.btn {
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btn__primary {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.btn__secondary {
+    background-color: grey;
+    color: var(--white);
+}
+
+.btn__disabled {
+    border: 1px solid black;
+    color: black;
+}
+
+.btn__success {
+    background-color: var(--success);
+    color: var(--white);
+}
+
+.btn__danger {
+    background-color: var(--danger);
+    color: var(--white);
+}
+
+
+.btn__warning {
+    background-color: yellow;
+    color: black;
+}
+
+.btn__info {
+    background-color: lightblue;
+    color: black;
+}
+
+.btn__light {
+    color: black;
+}
+
+.btn__dark {
+    background-color: black;
+    color: var(--white);
+}
+
+.btn__link {
+    background-color: #fff;
+    color: blue;
+    text-decoration: underline;
+}
+
+.btn__floating__icon {
+    padding: 0.5rem;
+}
+
+.icon__md {
+    font-size: 2rem;
+}
+
+.icon__large {
+    font-size: 5rem;
+}
+
+.rm-padding-xs {
+    margin-right: 5px;
+}
