@@ -1,0 +1,130 @@
+@import url(../styles.css);
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--bg-white);
+}
+
+.avatar>img {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    background-color: var(--white);
+    max-width: 90%;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.avatar {
+    display: inline-block;
+    margin: 5px;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid #312f2f;
+    cursor: pointer;
+}
+
+.avatar__2xs {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.avatar__xs {
+    width: 3rem;
+    height: 3rem;
+}
+
+.avatar__sm {
+    width: 4rem;
+    height: 4rem;
+}
+
+.avatar__md {
+    width: 5rem;
+    height: 5rem;
+}
+
+.avatar__lg {
+    width: 6rem;
+    height: 6rem;
+}
+
+.avatar__xl {
+    width: 7.5rem;
+    height: 7.5rem;
+}
+
+.avatar__2xl {
+    width: 10rem;
+    height: 10rem;
+}
+
+.avatar__group {
+    display: flex;
+    padding: 1rem 2rem;
+}
+
+.avatar__group .avatar {
+    margin-left: -20px;
+    position: relative;
+}
+
+.avatar__extra {
+    width: 5rem;
+    height: 5rem;
+    margin: 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: #312f2f;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-left: -15px;
+}
+
+.avatar__with__badge {
+    width: 7rem;
+}
+
+.avatar__default {
+    display: inline-block;
+    border: 2px solid var(--white);
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    margin-left: -25px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.avatar__with__badge__active {
+    background-color: var(--success);
+}
+
+.avatar__with__badge__danger {
+    background-color: var(--danger);
+}
+
+.avatar__with__badge__primary {
+    background-color: var(--primary);
+}
+
+.avatar__with__badge__offline {
+    background-color: var(--offline);
+}
