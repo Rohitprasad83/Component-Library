@@ -27,9 +27,17 @@ html {
     color: var(--white);
 }
 
+.btn__primary:hover {
+    background-color: var(--primary-hover);
+}
+
 .btn__secondary {
-    background-color: grey;
+    background-color: var(--secondary);
     color: var(--white);
+}
+
+.btn__secondary:hover {
+    background-color: var(--secondary-hover);
 }
 
 .btn__disabled {
@@ -42,28 +50,39 @@ html {
     color: var(--white);
 }
 
+.btn__success:hover {
+    background-color: var(--success-hover);
+}
+
 .btn__danger {
     background-color: var(--danger);
     color: var(--white);
 }
 
+.btn__danger:hover {
+    background-color: var(--danger-hover);
+}
 
 .btn__warning {
-    background-color: yellow;
-    color: black;
+    background-color: var(--warning);
+    color: var(--dark);
+}
+
+.btn__warning:hover {
+    background-color: var(--warning-hover);
 }
 
 .btn__info {
-    background-color: lightblue;
-    color: black;
+    background-color: var(--info);
+    color: var(--dark);
 }
 
 .btn__light {
-    color: black;
+    color: var(--dark);
 }
 
 .btn__dark {
-    background-color: black;
+    background-color: var(--dark);
     color: var(--white);
 }
 

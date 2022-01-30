@@ -1,0 +1,60 @@
+@import url(../styles.css);
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--white);
+}
+
+.alert {
+    background-color: var(--white);
+    width: 70%;
+    padding: 0.5rem 2rem;
+    display: flex;
+    position: absolute;
+    top: 4rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2rem;
+}
+
+.alert__message {
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.alert__close {
+    cursor: pointer;
+}
+
+.alert__primary {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.alert__secondary {
+    background-color: var(--secondary);
+    color: var(--white);
+}
+
+.alert__success {
+    background-color: var(--success);
+    color: var(--white);
+}
+
+.alert__danger {
+    background-color: var(--danger);
+    color: var(--white);
+}
+
+.alert__warning {
+    background-color: var(--warning);
+    color: var(--dark);
+}
