@@ -49,8 +49,8 @@ body {
     color: var(--white);
 }
 
-.alert__danger {
-    background-color: var(--danger);
+.alert__error {
+    background-color: var(--error);
     color: var(--white);
 }
 

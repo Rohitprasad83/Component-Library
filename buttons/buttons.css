@@ -43,6 +43,7 @@ html {
 .btn__disabled {
     border: 1px solid black;
     color: black;
+    cursor: not-allowed;
 }
 
 .btn__success {
@@ -54,13 +55,13 @@ html {
     background-color: var(--success-hover);
 }
 
-.btn__danger {
-    background-color: var(--danger);
+.btn__error {
+    background-color: var(--error);
     color: var(--white);
 }
 
-.btn__danger:hover {
-    background-color: var(--danger-hover);
+.btn__error:hover {
+    background-color: var(--error-hover);
 }
 
 .btn__warning {
@@ -88,6 +89,7 @@ html {
 
 .btn__link {
     background-color: var(--white);
+    border: 1px solid var(--offline);
     color: var(--primary);
     text-decoration: underline;
 }
