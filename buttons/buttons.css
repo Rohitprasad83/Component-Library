@@ -1,0 +1,187 @@
+@import url(../styles.css);
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--bg-white);
+    font-size: 62.5%;
+}
+
+.container {
+    background-color: var(--white);
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.btn {
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.btn__primary {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.btn__primary:hover {
+    background-color: var(--primary-hover);
+}
+
+.btn__primary__outlined {
+    border: 1px solid var(--primary);
+    color: var(--dark);
+}
+
+.btn__primary__outlined:hover {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+
+
+.btn__secondary {
+    background-color: var(--secondary);
+    color: var(--white);
+}
+
+.btn__secondary:hover {
+    background-color: var(--secondary-hover);
+}
+
+.btn__secondary__outlined {
+    border: 1px solid var(--secondary);
+    color: var(--dark);
+}
+
+.btn__secondary__outlined:hover {
+    background-color: var(--secondary);
+    color: var(--white);
+}
+
+
+
+.btn__disabled {
+    border: 1px solid black;
+    color: black;
+    cursor: not-allowed;
+}
+
+.btn__success {
+    background-color: var(--success);
+    color: var(--white);
+}
+
+.btn__success:hover {
+    background-color: var(--success-hover);
+}
+
+.btn__success__outlined {
+    border: 1px solid var(--success);
+    color: var(--dark);
+}
+
+.btn__success__outlined:hover {
+    background-color: var(--success);
+    color: var(--white);
+}
+
+.btn__error {
+    background-color: var(--error);
+    color: var(--white);
+}
+
+.btn__error:hover {
+    background-color: var(--error-hover);
+}
+
+.btn__error__outlined {
+    border: 1px solid var(--error);
+    color: var(--dark);
+}
+
+.btn__error__outlined:hover {
+    background-color: var(--error);
+    color: var(--white);
+}
+
+
+.btn__warning {
+    background-color: var(--warning);
+    color: var(--dark);
+}
+
+.btn__warning:hover {
+    background-color: var(--warning-hover);
+}
+
+.btn__warning__outlined {
+    border: 1px solid var(--warning);
+    color: var(--dark);
+}
+
+.btn__warning__outlined:hover {
+    background-color: var(--warning);
+    color: var(--dark);
+}
+
+
+.btn__info {
+    background-color: var(--info);
+    color: var(--dark);
+}
+
+.btn__info__outlined {
+    border: 1px solid var(--info);
+    color: var(--dark);
+}
+
+.btn__info__outlined:hover {
+    background-color: var(--info);
+    color: var(--dark);
+}
+.btn__light {
+    color: var(--dark);
+}
+
+.btn__dark {
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+.btn__dark__outlined {
+    border: 1px solid var(--dark);
+    color: var(--dark);
+}
+
+.btn__dark__outlined:hover {
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+
+.btn__link {
+    background-color: var(--white);
+    border: 1px solid var(--offline);
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+.btn__floating__icon {
+    padding: 0.5rem;
+}
+
+.icon__md {
+    font-size: 2rem;
+}
+
+.icon__large {
+    font-size: 5rem;
+}
+
+.rm-padding-xs {
+    margin-right: 1rem;
+}
