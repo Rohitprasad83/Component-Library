@@ -31,6 +31,18 @@ html {
     background-color: var(--primary-hover);
 }
 
+.btn__primary__outlined {
+    border: 1px solid var(--primary);
+    color: var(--dark);
+}
+
+.btn__primary__outlined:hover {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+
+
 .btn__secondary {
     background-color: var(--secondary);
     color: var(--white);
@@ -39,6 +51,18 @@ html {
 .btn__secondary:hover {
     background-color: var(--secondary-hover);
 }
+
+.btn__secondary__outlined {
+    border: 1px solid var(--secondary);
+    color: var(--dark);
+}
+
+.btn__secondary__outlined:hover {
+    background-color: var(--secondary);
+    color: var(--white);
+}
+
+
 
 .btn__disabled {
     border: 1px solid black;
@@ -55,6 +79,16 @@ html {
     background-color: var(--success-hover);
 }
 
+.btn__success__outlined {
+    border: 1px solid var(--success);
+    color: var(--dark);
+}
+
+.btn__success__outlined:hover {
+    background-color: var(--success);
+    color: var(--white);
+}
+
 .btn__error {
     background-color: var(--error);
     color: var(--white);
@@ -63,6 +97,17 @@ html {
 .btn__error:hover {
     background-color: var(--error-hover);
 }
+
+.btn__error__outlined {
+    border: 1px solid var(--error);
+    color: var(--dark);
+}
+
+.btn__error__outlined:hover {
+    background-color: var(--error);
+    color: var(--white);
+}
+
 
 .btn__warning {
     background-color: var(--warning);
@@ -73,11 +118,31 @@ html {
     background-color: var(--warning-hover);
 }
 
+.btn__warning__outlined {
+    border: 1px solid var(--warning);
+    color: var(--dark);
+}
+
+.btn__warning__outlined:hover {
+    background-color: var(--warning);
+    color: var(--dark);
+}
+
+
 .btn__info {
     background-color: var(--info);
     color: var(--dark);
 }
 
+.btn__info__outlined {
+    border: 1px solid var(--info);
+    color: var(--dark);
+}
+
+.btn__info__outlined:hover {
+    background-color: var(--info);
+    color: var(--dark);
+}
 .btn__light {
     color: var(--dark);
 }
@@ -86,6 +151,17 @@ html {
     background-color: var(--dark);
     color: var(--white);
 }
+
+.btn__dark__outlined {
+    border: 1px solid var(--dark);
+    color: var(--dark);
+}
+
+.btn__dark__outlined:hover {
+    background-color: var(--dark);
+    color: var(--white);
+}
+
 
 .btn__link {
     background-color: var(--white);
