@@ -1,7 +1,7 @@
 @import url(../styles.css);
 @import url(../buttons/buttons.css);
 html {
-  background-color: #eeeee4;
+  background-color: var(--bg-white);
   font-size: 62.5%;
 }
 
