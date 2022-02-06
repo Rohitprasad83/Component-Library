@@ -1,68 +1,67 @@
 @import url(./reset.css);
 @import url(../buttons/buttons.css);
-html {
-    font-size: 62.5%;
-    box-sizing: border-box;
-    
-}
-* {
-    margin: 0;
-}
 .navbar {
-    display: flex;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    font-size:3rem;
-    border-color: var(--white);
-    border-bottom-style: outset;
-}
-
-.navbar__list {
-    list-style: none;
-    margin-left: auto;
-    margin-right: 10rem;
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-    padding: 1rem;
-    gap: 4rem;
-    padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1rem 2rem;
+  border-color: var(--pure-white);
+  border-bottom-style: outset;
 }
 
 .navbar__header {
-    margin-left: 10rem;
-    padding: 1rem;
+  font-size: 3rem;
+}
+
+.navbar__list {
+  list-style: none;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  gap: 2rem;
+  padding: 1rem;
 }
 
 .navbar__list__items {
-    cursor: pointer;
-    font-size: 2rem;
+  cursor: pointer;
+  font-size: 1.8rem;
 }
 
 .brand {
-    width: max-content;
-    height: max-content;
-    position: absolute; 
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
+  min-width: 30rem;
+  height: max-content;
+  text-align: center;
+  margin: 25rem auto;
+  padding: 2rem;
 }
 
 .brand__name {
-    text-align: center;
-    font-size: 6rem;
+  text-align: center;
+  font-size: 5rem;
 }
 
 .brand__details {
-    font-size: 2.5rem;
+  margin-top: 3rem;
+  font-size: 2.5rem;
 }
 
 .brand__navigation {
-    display: flex;
-    font-size: 2rem;
-    gap: 1rem;
-    justify-content: center;
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.btn {
+    width: 15rem;
+}
+
+@media only screen and (max-width: 400px) {
+  .navbar__list__items {
+    font-size: 1.2em;
+  }
 }
