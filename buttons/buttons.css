@@ -1,11 +1,7 @@
-@import url(../styles.css);
+@import url(../utilities/reset.css);
 
 html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     background-color: var(--bg-white);
-    font-size: 62.5%;
 }
 
 .container {

@@ -1,0 +1,68 @@
+@import url(./reset.css);
+@import url(../buttons/buttons.css);
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    
+}
+* {
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size:3rem;
+    border-color: var(--white);
+    border-bottom-style: outset;
+}
+
+.navbar__list {
+    list-style: none;
+    margin-left: auto;
+    margin-right: 10rem;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 4rem;
+    padding: 2rem;
+}
+
+.navbar__header {
+    margin-left: 10rem;
+    padding: 1rem;
+}
+
+.navbar__list__items {
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.brand {
+    width: max-content;
+    height: max-content;
+    position: absolute; 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.brand__name {
+    text-align: center;
+    font-size: 6rem;
+}
+
+.brand__details {
+    font-size: 2.5rem;
+}
+
+.brand__navigation {
+    display: flex;
+    font-size: 2rem;
+    gap: 1rem;
+    justify-content: center;
+}
