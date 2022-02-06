@@ -118,7 +118,7 @@ body {
 }
 
 .avatar__with__badge__danger {
-    background-color: var(--danger);
+    background-color: var(--error);
 }
 
 .avatar__with__badge__primary {
