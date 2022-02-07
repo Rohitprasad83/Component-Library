@@ -1,0 +1,26 @@
+@import url(../utilities/reset.css);
+
+.list {
+  border: 2px solid var(--white);
+  display: inline-block;
+  margin: 2rem;
+  padding: 1rem;
+}
+.list__heading {
+  font-size: 2.5rem;
+  padding: 1rem;
+}
+
+.list > li {
+  font-size: 1.6rem;
+  list-style: none;
+  padding: 1rem;
+}
+
+.list__spaced > li {
+  margin: 1rem 0;
+}
+
+.list__stacked > li {
+  border: 1px solid var(--white);
+}
