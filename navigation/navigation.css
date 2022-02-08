@@ -23,8 +23,7 @@
   padding: 1rem;
   gap: 2rem;
   padding: 1rem;
-  margin-left: auto;
-  margin-right: 5rem;
+  margin: 0 5rem 0 auto;
 }
 
 .navbar__list__items {
@@ -46,8 +45,8 @@
   .hamburger__list {
     width: 18rem;
     height: auto;
-    border-right: 1px solid var(--dark);
-    border-bottom: 1px solid var(--dark);
+    border: solid var(--dark); 
+    border-width: 2px 0 2px 2px;
     position: absolute;
     left: 0;
     top: 0;
