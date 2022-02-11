@@ -6,10 +6,6 @@
   width: 70%;
   padding: 0.5rem 2rem;
   display: flex;
-  position: absolute;
-  top: 4rem;
-  left: 0;
-  right: 0;
   margin: 2rem auto;
   border: none;
   justify-content: space-between;
@@ -72,4 +68,9 @@
 .alert__warning__outlined {
   border: 2px solid var(--warning);
   color: var(--warning);
+}
+
+.reset {
+  font-size: 2rem;
+  margin: 1rem auto;
 }
