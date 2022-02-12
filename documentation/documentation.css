@@ -22,7 +22,7 @@
 .page__container>.sidebar {
     grid-area: aside;
     height: 70rem;
-    overflow: auto;
+    overflow-y: scroll;
     position: fixed;
     top: 8rem;
     width: 25rem;
@@ -42,8 +42,18 @@
 .sidebar__items {
     padding: 1rem;
     margin: 1rem;
-    font-size: 1.6rem;
+    font-size: 2rem;
     list-style: none;
+    cursor: pointer;
+}
+
+.sidebar__items:last-child {
+    margin-bottom: 7rem;
+}
+
+.sidebar__items:hover {
+    background-color: var(--gray);
+    transition: 0.3s all ease-in-out;
 }
 
 .fa-heart {
