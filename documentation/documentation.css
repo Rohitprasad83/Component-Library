@@ -22,7 +22,7 @@
 .page__container>.sidebar {
     grid-area: aside;
     height: 70rem;
-    overflow: visible;
+    overflow-y: scroll;
     position: fixed;
     top: 8rem;
     width: 25rem;
