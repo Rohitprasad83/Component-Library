@@ -109,7 +109,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: auto;
+  width: 100%;
+  gap: 2rem;
   border: 2px solid var(--gray);
   padding: 3rem;
   height: auto;
@@ -117,11 +118,19 @@
   border-radius: 8px;
 }
 
-
+.container__100 {
+  width: 100%;
+  border: 2px solid var(--gray);
+  padding: 3rem;
+  height: auto;
+  margin: 3rem 1rem;
+  border-radius: 8px;
+}
 /* ---- only for alert documentation ---- */
 
 
 .container__flex {
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
