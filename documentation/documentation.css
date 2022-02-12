@@ -135,3 +135,19 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+.modal__example {
+    max-width: 35rem;
+    background-color: var(--white);
+    height: 30rem;
+    padding: 1rem;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid var(--gray);
+    box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.2);
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
