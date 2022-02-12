@@ -42,7 +42,7 @@
 .sidebar__items {
     padding: 1rem;
     margin: 1rem;
-    font-size: 2rem;
+    font-size: 1.6rem;
     list-style: none;
 }
 
@@ -88,17 +88,6 @@
     width: 100%;
     padding: 1rem;
     overflow: hidden;
-}
-
-@media only screen and (max-width: 768px) {
-    .page__container {
-        grid-template-areas: 'header' 'main' 'main' 'footer';
-        grid-template-columns: 1fr;
-        grid-template-rows: 8rem auto 5rem;
-    }
-    .sidebar {
-        display: none;
-    }
 }
 
 .container__example {
@@ -169,4 +158,15 @@
 
 .text__left {
     text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+    .page__container {
+        grid-template-areas: 'header' 'main' 'main' 'footer';
+        grid-template-columns: 1fr;
+        grid-template-rows: 8rem auto 5rem;
+    }
+    .sidebar {
+        display: none;
+    }
 }
