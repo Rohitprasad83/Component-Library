@@ -42,9 +42,13 @@
 .sidebar__items {
     padding: 1rem;
     margin: 1rem;
-    font-size: 1.4rem;
+    font-size: 2rem;
     list-style: none;
     cursor: pointer;
+}
+
+.sidebar__items:last-child {
+    margin-bottom: 7rem;
 }
 
 .sidebar__items:hover {
