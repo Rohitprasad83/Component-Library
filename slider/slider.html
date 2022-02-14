@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Rohit Prasad" />
+    <meta name="description" content="slider" />
+    <title>Slider</title>
+    <link rel="stylesheet" href="./slider.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h2>Slider</h2>
+        <div class="slider text__md">
+            <label for="slider__input ">Select your Price Range</label>
+            <input id="slider__input" type="range" min="1" max="100" value="50" class="slider__input" />
+        </div>
+        <div class="slider__output text__md"></div>
+        <h2>Disabled Slider</h2>
+        <div class="slider text__md">
+            <label for="slider__input ">Select your Price Range</label>
+            <input id="slider__input" type="range" min="1" max="100" value="50" class="slider__input disabled" disabled />
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./slider.js"></script>
+</body>
+
+</html>
