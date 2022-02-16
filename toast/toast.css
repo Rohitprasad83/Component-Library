@@ -1,0 +1,68 @@
+@import url(../utilities/reset.css);
+@import url(../text\ utilities/text.css);
+@import url(../buttons/buttons.css);
+.toast {
+    width: 25rem;
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: space-between;
+    line-height: 4rem;
+    padding: 1rem;
+    box-shadow: 5px 8px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    position: absolute;
+}
+
+.success {
+    background-color: var(--success);
+    color: var(--white);
+}
+
+.primary {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.error {
+    background-color: var(--error);
+    color: var(--white);
+}
+.dark {
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+.info {
+    background-color: var(--info);
+    color: var(--dark);
+}
+
+.toast__close {
+    cursor: pointer;
+}
+
+.top {
+    top: 1rem;
+    left: 1rem;
+}
+
+.bottom {
+    bottom: 1rem;
+    left: 1rem;
+}
+
+.right {
+    right: 1rem;
+    margin-left: auto;
+}
+
+
+.center {
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.hide {
+    display: none;
+}
