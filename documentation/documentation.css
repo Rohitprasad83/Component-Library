@@ -179,4 +179,9 @@
     .sidebar {
         display: none;
     }
+    .navbar > .hamburger__list {
+        width: 25rem;
+        overflow: scroll;
+        height: 70rem;
+    }
 }
