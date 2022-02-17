@@ -1,0 +1,38 @@
+@import url(../utilities/reset.css);
+@import url(../text\ utilities/text.css);
+.slider {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.slider__input {
+    -webkit-appearance: none;
+    height: 1rem;
+    background: var(--gray);
+    outline: none;
+    opacity: 0.7;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.slider__input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: var(--secondary);
+    cursor: pointer;
+}
+
+.disabled::-webkit-slider-thumb {
+    cursor: not-allowed;
+    background-color: var(--gray);
+}
+
+.slider__output {
+    margin: 1rem;
+}
+

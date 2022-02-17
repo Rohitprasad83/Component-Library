@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Rohit Prasad" />
+    <meta name="description" content="Input" />
+    <title>Input</title>
+    <link rel="stylesheet" href="./documentation.css" />
+    <link rel="stylesheet" href="../main.css" />
+</head>
+
+<body>
+    <div class="page__container">
+        <nav class="navbar">
+            <div class="hamburger"><i class="fas fa-bars"></i></div>
+            <ul class="hamburger__list">
+                <div class="hamburger__top">
+                    <h4 class="hamburger__header">Particle</h4>
+                    <span class="hamburger__close"><i class="fas fa-close close"></i></span>
+                </div>
+
+                <li class="hamburger__list__items">
+                    <a href="./index.html">Get Started</a>
+                </li>
+                <li class="hamburger__list__items">
+                    <a href="./alert.html">Alert</a>
+                </li>
+                <li class="hamburger__list__items">
+                    <a href="./avatar.html">Avatar</a>
+                </li>
+                <li class="hamburger__list__items">
+                    <a href="./badge.html">Badge</a>
+                </li>
+                <li class="hamburger__list__items">
+                    <a href="./buttons.html">Buttons</a>
+                </li>
+                <li class="hamburger__list__items">
+                    <a href="./card.html">Card</a>
+                </li>
+                <li class="hamburger__list__items">
+                    <a href="./grid.html">Grid</a>
+                </li>
+                <li class="hamburger__list__items">
+                    <a href="./image.html">Image</a>
+                </li>
+                <li class="hamburger__list__items">
+                    <a href="./input.html">Input</a>
+                </li>
+                <li class="hamburger__list__items">
+                    <a href="./lists.html">Lists</a>
+                </li>
+                <li class="hamburger__list__items">
+                    <a href="./modal.html">Modal</a>
+                </li>
+                <li class="hamburger__list__items">
+                    <a href="./navigation.html">Navigaton</a>
+                </li>
+                <li class="hamburger__list__items">
+                    <a href="./rating.html">Rating</a>
+                </li>
+                <li class="hamburger__list__items">
+                    <a href="./typography.html">Typography</a>
+                </li>
+            </ul>
+
+            <h3 class="navbar__header">Particle UI</h3>
+            <ul class="navbar__list">
+                <li class="navbar__list__items">
+                    <a href="./index.html">Get Started</a>
+                </li>
+                <li class="navbar__list__items">
+                    <a href="./alert.html">Docs</a>
+                </li>
+                <li class="navbar__list__items">
+                    <i class="fab fa-github"></i>
+                </li>
+            </ul>
+        </nav>
+        <aside class="sidebar">
+            <ul class="text__md">
+                <li class="sidebar__items"><a href="./index.html">Get Started</a></li>
+                <li class="sidebar__items"><a href="./alert.html">Alert</a></li>
+                <li class="sidebar__items"><a href="./avatar.html">Avatar</a></li>
+                <li class="sidebar__items"><a href="./badge.html">Badge</a></li>
+                <li class="sidebar__items"><a href="./buttons.html">Buttons</a></li>
+                <li class="sidebar__items"><a href="./card.html">Card</a></li>
+                <li class="sidebar__items"><a href="./grid.html">Grid</a></li>
+                <li class="sidebar__items"><a href="./image.html">Image</a></li>
+                <li class="sidebar__items"><a href="./input.html">Input</a></li>
+                <li class="sidebar__items"><a href="./lists.html">Lists</a></li>
+                <li class="sidebar__items"><a href="./modal.html">Modal</a></li>
+                <li class="sidebar__items">
+                    <a href="./navigation.html">Navigaton</a>
+                </li>
+                <li class="sidebar__items"><a href="./rating.html">Rating</a></li>
+                <li class="sidebar__items">
+                    <a href="./typography.html">Typography</a>
+                </li>
+            </ul>
+        </aside>
+        <section class="main__content">
+            <article class="article__container">
+                <h3 class="margin1">Input</h3>
+                <p class="text__lg margin1">
+                    Input Form are used to collect Information from the user and then send it to the server.
+                </p>
+                <h4 class="margin1">Basic Form Input</h4>
+
+                <div class="container__example">
+                    <div class="form__group">
+                        <label for="username">Email</label>
+                        <input type="text" id="username" name="username" placeholder="Enter your email" class="form__group__input" />
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Enter your password" class="form__group__input" />
+                        <button class="btn btn__secondary login">
+                            <i class="fas fa-sign-in-alt login__icon"></i>Login
+                        </button>
+                    </div>
+                </div>
+                <div class="code__example">
+                    <iframe src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=sharp&l=htmlmixed&width=718&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Fira+Code&fs=17px&lh=165%25&si=false&es=2x&wm=false&code=%253C%21--%2520Basic%2520Form%2520Input%2520--%253E%250A%253Cdiv%2520class%253D%2522form__group%2522%253E%250A%2520%2520%2520%253Clabel%2520for%253D%2522username%2522%253EEmail%253C%252Flabel%253E%250A%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522username%2522%250A%2520%2520%2520%2520%2520%2520name%253D%2522username%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Enter%2520your%2520email%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522form__group__input%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520type%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520name%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Enter%2520your%2520password%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522form__group__input%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn__secondary%2520login%2522%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-sign-in-alt%2520login__icon%2522%253E%253C%252Fi%253ELogin%250A%2520%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                        class="code__snippet code__snippet__lg" sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    </iframe>
+                </div>
+                <h4 class="margin1">Form Input with Error and Success Message</h4>
+                <div class="container__example">
+                    <div class="form__group">
+                        <label for="username">Email</label>
+                        <input type="text" id="username" name="username" placeholder="Enter your email" class="form__group__input" />
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Enter your password" class="form__group__input" />
+
+                        <div class="msg login__error">
+                            <i class="fas fa-exclamation-triangle"></i> Enter correct Email and Password
+                        </div>
+                        <button class="btn btn__secondary login">
+                            <i class="fas fa-sign-in-alt login__icon"></i>Login
+                        </button>
+                    </div>
+                </div>
+
+                <div class="code__example">
+                    <iframe src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=sharp&l=htmlmixed&width=718&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Fira+Code&fs=17px&lh=165%25&si=false&es=2x&wm=false&code=%253C%21--%2520Basic%2520Form%2520with%2520Error%2520message%2520--%253E%250A%253Cdiv%2520class%253D%2522form__group%2522%253E%250A%2520%2520%2520%253Clabel%2520for%253D%2522username%2522%253EEmail%253C%252Flabel%253E%250A%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520id%253D%2522username%2522%2520name%253D%2522username%2522%2520placeholder%253D%2522Enter%2520your%2520email%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522form__group__input%2522%2520%252F%253E%250A%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520id%253D%2522password%2522%2520name%253D%2522password%2522%2520placeholder%253D%2522Enter%2520your%2520password%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522form__group__input%2522%2520%252F%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522msg%2520login__error%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%2520Enter%2520correct%2520Email%2520and%250A%2520%2520%2520%2520%2520%2520Password%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn__secondary%2520login%2522%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-sign-in-alt%2520login__icon%2522%253E%253C%252Fi%253ELogin%250A%2520%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                        class="code__snippet code__snippet__lg" sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="container__example container__flex">
+                    <div class="form__group">
+                        <label for="username">Email</label>
+                        <input type="text" id="username" name="username" placeholder="Enter your email" class="form__group__input" />
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Enter your password" class="form__group__input" />
+
+                        <div class="msg login__success">
+                            <i class="fas fa-check"></i> login successful
+                        </div>
+                        <button class="btn btn__secondary login">
+                            <i class="fas fa-sign-in-alt login__icon"></i>Login
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="code__example">
+                    <iframe src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=sharp&l=htmlmixed&width=718&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Fira+Code&fs=17px&lh=165%25&si=false&es=2x&wm=false&code=%253C%21--%2520Basic%2520Form%2520with%2520Success%2520message%2520--%253E%250A%253Cdiv%2520class%253D%2522form__group%2522%253E%250A%2520%2520%2520%253Clabel%2520for%253D%2522username%2522%253EEmail%253C%252Flabel%253E%250A%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520id%253D%2522username%2522%2520name%253D%2522username%2522%2520placeholder%253D%2522Enter%2520your%2520email%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522form__group__input%2522%2520%252F%253E%250A%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520id%253D%2522password%2522%2520name%253D%2522password%2522%2520placeholder%253D%2522Enter%2520your%2520password%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522form__group__input%2522%2520%252F%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522msg%2520login__success%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check%2522%253E%253C%252Fi%253E%2520login%2520successful%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn__secondary%2520login%2522%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-sign-in-alt%2520login__icon%2522%253E%253C%252Fi%253ELogin%250A%2520%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                        class="code__snippet code__snippet__lg" sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <h4 class="margin1">Input with Textbox</h4>
+                <div class="container__example">
+                    <div class="form__group">
+                        <label for="username">Email</label>
+                        <input type="text" id="username" name="username" placeholder="Enter your email" class="form__group__input" />
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Enter your password" class="form__group__input" />
+                        <label for="address">Address</label>
+                        <textarea rows="5" cols="10" placeholder="Enter your address" id="address" name="address" placeholder="Enter your address" class="form__group__textbox"></textarea>
+                        <button class="btn btn__secondary login">
+                        <i class="fas fa-sign-in-alt login__icon"></i>Login
+                        </button>
+                    </div>
+                </div>
+
+                <div class="code__example">
+                    <iframe src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=sharp&l=htmlmixed&width=718&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=17px&lh=165%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522form__group%2522%253E%250A%2520%2520%2520%253Clabel%2520for%253D%2522username%2522%253EEmail%253C%252Flabel%253E%250A%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520id%253D%2522username%2522%2520name%253D%2522username%2522%2520placeholder%253D%2522Enter%2520your%2520email%2522%2520class%253D%2522form__group__input%2522%2520%252F%253E%250A%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520id%253D%2522password%2522%2520name%253D%2522password%2522%2520placeholder%253D%2522Enter%2520your%2520password%2522%2520class%253D%2522form__group__input%2522%2520%252F%253E%250A%2520%2520%2520%253Clabel%2520for%253D%2522address%2522%253EAddress%253C%252Flabel%253E%250A%2520%2520%2520%253Ctextarea%2520rows%253D%25225%2522%2520cols%253D%252210%2522%2520placeholder%253D%2522Enter%2520your%2520address%2522%2520id%253D%2522address%2522%2520name%253D%2522address%2522%2520placeholder%253D%2522Enter%2520your%2520address%2522%2520class%253D%2522form__group__textbox%2522%253E%253C%252Ftextarea%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn__secondary%2520login%2522%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-sign-in-alt%2520login__icon%2522%253E%253C%252Fi%253ELogin%250A%2520%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                        class="code__snippet code__snippet__lg" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                </div>
+            </article>
+            <hr />
+            <div class="bottom__nav">
+                <div class="previous__page text__lg">
+                    <a href="./image.html">
+                        < Image</a>
+                </div>
+                <div class="next__page text__lg">
+                    <a href="./lists.html"> Lists ></a>
+                </div>
+            </div>
+
+
+        </section>
+        <footer class="footer text__lg text__center">
+            Made with <i class="fas fa-heart"></i> by Rohit
+        </footer>
+    </div>
+
+    <script src="../navigation/naviagtion.js"></script>
+    <script src="./javascript/alert.js"></script>
+</body>
+
+</html>

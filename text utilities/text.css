@@ -1,0 +1,90 @@
+@import url(../utilities/reset.css);
+
+
+h1 {
+    font-size: 7rem;
+}
+
+h2 {
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 4rem;
+}
+
+h4 {
+    font-size: 3rem;
+}
+
+h5 {
+    font-size: 2.5rem;
+}
+
+h6 {
+    font-size: 2rem;
+}
+
+
+.text__xl {
+    font-size: 3rem;
+}
+
+.text__lg {
+    font-size: 2rem;
+}
+
+.text__md {
+    font-size: 1.6rem;
+}
+
+.text__sm {
+    font-size: 1rem;
+}
+
+
+.font__dark {
+    font-weight: 700;
+}
+
+.font__bold {
+    font-weight: 500;
+}
+
+.font__regular {
+    font-weight: 400;
+}
+
+.font__light {
+    font-weight: 200;
+}
+
+.text__gray {
+    color: #b2b2b2;
+}
+
+.text__blue {
+    color: var(--primary);
+}
+.text__pink {
+    color: var(--secondary);
+}
+
+
+.text__left {
+    text-align: left;
+}
+.text__center {
+    text-align: center;
+}
+
+.text__right {
+    text-align: right;
+}
+
+
+.container { 
+    width: max-content;
+    margin: 2rem auto;
+    text-align: center;
+}
