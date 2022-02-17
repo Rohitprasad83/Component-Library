@@ -1,4 +1,4 @@
-@import url(../styles.css);
+@import url(../utilities/reset.css);
 @import url(../buttons/buttons.css);
 html {
   font-size: 62.5%;
@@ -10,7 +10,7 @@ html {
   margin: 1rem auto;
   border: 1px solid var(--gray);
   display: flex;
-  width: 100%;
+  width: max-content;
   flex-direction: column;
   font-size: 2rem;
   color: var(--secondary);
