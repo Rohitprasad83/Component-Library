@@ -45,8 +45,6 @@
     .hamburger__list {
         width: 18rem;
         height: auto;
-        border: solid var(--dark);
-        border-width: 2px 0 2px 2px;
         position: absolute;
         left: 0;
         top: 0;
