@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Rohit Prasad" />
+    <meta name="description" content="Buttons" />
+    <title>Buttons</title>
+    <link rel="stylesheet" href="./documentation.css" />
+    <link rel="stylesheet" href="../main.css" />
+</head>
+
+<body>
+    <div class="page__container">
+        <nav class="navbar">
+            <div class="hamburger"><i class="fas fa-bars"></i></div>
+            <ul class="hamburger__list">
+                <div class="hamburger__top">
+                    <h4 class="hamburger__header">Particle</h4>
+                    <span class="hamburger__close"><i class="fas fa-close close"></i></span>
+                </div>
+
+                <li class="hamburger__list__items">
+                    <a href="./index.html">Get Started</a>
+                </li>
+                <li class="hamburger__list__items">
+                    <a href="./alert.html">Alert</a>
+                </li>
+                <li class="hamburger__list__items">
+                    <a href="./avatar.html">Avatar</a>
+                </li>
+                <li class="hamburger__list__items">
+                    <a href="./badge.html">Badge</a>
+                </li>
+                <li class="hamburger__list__items">
+                    <a href="./buttons.html">Buttons</a>
+                </li>
+                <li class="hamburger__list__items"><a href="./card.html">Card</a></li>
+                <li class="hamburger__list__items"><a href="./grid.html">Grid</a></li>
+                <li class="hamburger__list__items">
+                    <a href="./image.html">Image</a>
+                </li>
+                <li class="hamburger__list__items">
+                    <a href="./input.html">Input</a>
+                </li>
+                <li class="hamburger__list__items">
+                    <a href="./lists.html">Lists</a>
+                </li>
+                <li class="hamburger__list__items">
+                    <a href="./modal.html">Modal</a>
+                </li>
+                <li class="hamburger__list__items">
+                    <a href="./navigation.html">Navigaton</a>
+                </li>
+                <li class="hamburger__list__items"><a href="./rating.html">Rating</a></li>
+                <li class="hamburger__list__items"><a href="./slider.html">Slider</a></li>
+                <li class="hamburger__list__items"><a href="./toast.html">Toast</a></li>
+                <li class="hamburger__list__items">
+                    <a href="./typography.html">Typography</a>
+                </li>
+            </ul>
+
+            <h3 class="navbar__header">Particle UI</h3>
+            <ul class="navbar__list">
+                <li class="navbar__list__items">
+                    <a href="./index.html">Get Started</a>
+                </li>
+                <li class="navbar__list__items">
+                    <a href="./alert.html">Docs</a>
+                </li>
+                <li class="navbar__list__items">
+                    <i class="fab fa-github"></i>
+                </li>
+            </ul>
+        </nav>
+        <aside class="sidebar">
+            <ul class="text__md">
+                <li class="sidebar__items"><a href="./index.html">Get Started</a></li>
+                <li class="sidebar__items"><a href="./alert.html">Alert</a></li>
+                <li class="sidebar__items"><a href="./avatar.html">Avatar</a></li>
+                <li class="sidebar__items"><a href="./badge.html">Badge</a></li>
+                <li class="sidebar__items"><a href="./buttons.html">Buttons</a></li>
+                <li class="sidebar__items"><a href="./card.html">Card</a></li>
+                <li class="sidebar__items"><a href="./grid.html">Grid</a></li>
+                <li class="sidebar__items"><a href="./image.html">Image</a></li>
+                <li class="sidebar__items"><a href="./input.html">Input</a></li>
+                <li class="sidebar__items"><a href="./lists.html">Lists</a></li>
+                <li class="sidebar__items"><a href="./modal.html">Modal</a></li>
+                <li class="sidebar__items">
+                    <a href="./navigation.html">Navigaton</a>
+                </li>
+                <li class="sidebar__items"><a href="./rating.html">Rating</a></li>
+                <li class="sidebar__items"><a href="./slider.html">Slider</a></li>
+                <li class="sidebar__items"><a href="./toast.html">Toast</a></li>
+                <li class="sidebar__items">
+                    <a href="./typography.html">Typography</a>
+                </li>
+            </ul>
+        </aside>
+        <section class="main__content">
+            <article class="article__container">
+                <h3 class="margin1">Buttons</h3>
+                <p class="text__lg margin1">
+                    Buttons are one of the most integral part of a web interface.
+                </p>
+                <h4 class="margin1">Types of Buttons</h4>
+                <p class="text__lg margin1">
+                    Particle UI is having a quite a variety of buttons. Some of the pre-defined solid buttons are primary, secondary, error, succcess, dark, info, light, disabled, warning.
+                </p>
+
+                <div class="container__example container__flex">
+                    <button type="button" class="btn btn__primary">Primary</button>
+                    <button type="button" class="btn btn__secondary">Secondary</button>
+                    <button type="button" class="btn btn__disabled" disabled>
+            Disabled
+          </button>
+                    <button type="button" class="btn btn__success">Success</button>
+                    <button type="button" class="btn btn__error">Error</button>
+                    <button type="button" class="btn btn__warning">Warning</button>
+                    <button type="button" class="btn btn__info">Info</button>
+                    <button type="button" class="btn btn__light">Light</button>
+                    <button type="button" class="btn btn__dark">Dark</button>
+                    <button type="button" class="btn btn__link">Link</button>
+                </div>
+                <div class="code__example">
+                    <iframe src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=sharp&l=htmlmixed&width=718&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Fira+Code&fs=17px&lh=165%25&si=false&es=2x&wm=false&code=%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn__primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn__secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn__disabled%2522%2520disabled%253EDisabled%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn__success%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn__error%2522%253EError%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn__warning%2522%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn__info%2522%253EInfo%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn__light%2522%253ELight%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn__dark%2522%253EDark%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn__link%2522%253ELink%253C%252Fbutton%253E"
+                        class="code__snippet code__snippet__lg" sandbox="allow-scripts allow-same-origin">
+          </iframe>
+                </div>
+
+                <h4 class="margin1">Outline Buttons</h4>
+                <p class="text__lg margin1">
+                    Particle UI also have outline buttons, like primary, secondary, success, error, warning, info and dark.
+                </p>
+                <div class="container__example container__flex">
+                    <button type="button" class="btn btn__primary__outlined">
+            Primary
+          </button>
+                    <button type="button" class="btn btn__secondary__outlined">
+            Secondary
+          </button>
+                    <button type="button" class="btn btn__success__outlined">
+            Success
+          </button>
+                    <button type="button" class="btn btn__error__outlined">
+            Error
+          </button>
+                    <button type="button" class="btn btn__warning__outlined">
+            Warning
+          </button>
+                    <button type="button" class="btn btn__info__outlined">Info</button>
+                    <button type="button" class="btn btn__dark__outlined">Dark</button>
+                </div>
+                <div class="code__example">
+                    <iframe src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=sharp&l=htmlmixed&width=718&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Fira+Code&fs=17px&lh=165%25&si=false&es=2x&wm=false&code=%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn__primary__outlined%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn__secondary__outlined%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn__success__outlined%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn__error__outlined%2522%253EError%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn__warning__outlined%2522%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn__info__outlined%2522%253EInfo%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn__dark__outlined%2522%253EDark%253C%252Fbutton%253E"
+                        class="code__snippet code__snippet__lg" sandbox="allow-scripts allow-same-origin">
+          </iframe>
+                </div>
+                <h4 class="margin1">Other types of Buttons</h4>
+                <p class="text__lg margin1">
+                    There are other types of buttons like Button with a icon, floating action button which are quite useful. Particle UI is also having three different sizes of button icons, small, medium and large.
+                </p>
+                <div class="container__example container__flex">
+                    <button type="button" class="btn btn__icon">
+            <span><i class="fas fa-shopping-cart"></i>Add to Cart</span>
+          </button>
+                    <button type="button" class="btn">
+            <span><i class="fas fa-arrow-alt-circle-down icon__sm"></i></span>
+          </button>
+                    <button type="button" class="btn">
+            <span><i class="fas fa-calendar icon__md"></i></span>
+          </button>
+                    <button type="button" class="btn">
+            <span><i class="fas fa-camera icon__lg"></i></span>
+          </button>
+                </div>
+                <div class="code__example">
+                    <iframe src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=sharp&l=htmlmixed&width=718&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Fira+Code&fs=17px&lh=165%25&si=false&es=2x&wm=false&code=%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn__icon%2522%253E%250A%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253EAdd%2520to%2520Cart%253C%252Fspan%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2522%253E%250A%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-arrow-alt-circle-down%2520icon__sm%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2522%253E%250A%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-calendar%2520icon__md%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2522%253E%250A%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-camera%2520icon__lg%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%253C%252Fbutton%253E"
+                        class="code__snippet code__snippet__lg" sandbox="allow-scripts allow-same-origin">
+          </iframe>
+                </div>
+            </article>
+            <hr />
+            <div class="bottom__nav">
+                <div class="previous__page text__lg">
+                    <a href="./badge.html">
+                        < Badge</a>
+                </div>
+                <div class="next__page text__lg">
+                    <a href="./card.html">Card ></a>
+                </div>
+            </div>
+        </section>
+        <footer class="footer text__lg text__center">
+            Made with <i class="fas fa-heart"></i> by Rohit
+        </footer>
+    </div>
+
+    <script src="../navigation/naviagtion.js"></script>
+</body>
+
+</html>

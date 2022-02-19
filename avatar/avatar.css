@@ -1,16 +1,3 @@
-@import url(../styles.css);
-
-html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 62.5%;
-}
-
-body {
-    background-color: var(--bg-white);
-}
-
 .avatar>img {
     height: 100%;
     width: 100%;
@@ -78,13 +65,10 @@ body {
 }
 
 .avatar__group .avatar {
-    margin-left: -20px;
-    position: relative;
+    margin-left: -2rem;
 }
 
 .avatar__extra {
-    width: 5rem;
-    height: 5rem;
     margin: 5px;
     border-radius: 50%;
     border: 1px solid black;
@@ -95,21 +79,22 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 1rem;
-    margin-left: -15px;
+    margin-left: -1.5rem;
 }
 
 .avatar__with__badge {
-    width: 7rem;
+    position: relative;
+    margin: 1rem;
 }
 
 .avatar__default {
-    display: inline-block;
+    position: absolute;
     border: 2px solid var(--white);
     height: 2rem;
     width: 2rem;
+    bottom: 1rem;
+    right: 5px;
     border-radius: 50%;
-    margin-left: -25px;
-    margin-bottom: 5px;
     cursor: pointer;
 }
 
@@ -117,7 +102,7 @@ body {
     background-color: var(--success);
 }
 
-.avatar__with__badge__danger {
+.avatar__with__badge__error {
     background-color: var(--error);
 }
 

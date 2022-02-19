@@ -1,18 +1,13 @@
-@import url(../styles.css);
-
-html {
-    font-size: 62.5%;
-}
 .responsive__img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .round__img {
     width: 15rem;
     height: 15rem;
-  border-radius: 50%;
+    border-radius: 50%;
 }
 
 .square__img {

@@ -1,0 +1,43 @@
+@import url(../buttons/buttons.css);
+.modal {
+    max-width: 35rem;
+    background-color: var(--white);
+    position: absolute;
+    height: 30rem;
+    padding: 1rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid var(--gray);
+    box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.modal__title {
+    font-size: 3rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--gray);
+}
+
+.modal__details {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--gray);
+}
+
+.modal__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.hide {
+    display: none;
+}

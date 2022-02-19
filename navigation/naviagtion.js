@@ -3,6 +3,7 @@ const hamburgerList = document.querySelector('.hamburger__list');
 const navbarHeader = document.querySelector('.navbar__header');
 const hide = document.querySelector('.hide');
 const close = document.querySelector('.close');
+hamburgerList.style.display = 'none';
 hamburger.addEventListener('click', () => {
     hamburgerList.classList.remove('hide');
     navbarHeader.classList.add('hide');

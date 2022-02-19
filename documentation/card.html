@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Rohit Prasad" />
+    <meta name="description" content="card" />
+    <title>Card</title>
+    <link rel="stylesheet" href="./documentation.css" />
+    <link rel="stylesheet" href="../main.css" />
+</head>
+
+<body>
+    <div class="page__container">
+        <nav class="navbar">
+            <div class="hamburger"><i class="fas fa-bars"></i></div>
+            <ul class="hamburger__list">
+                <div class="hamburger__top">
+                    <h4 class="hamburger__header">Particle</h4>
+                    <span class="hamburger__close"><i class="fas fa-close close"></i></span>
+                </div>
+
+                <li class="hamburger__list__items">
+                    <a href="./index.html">Get Started</a>
+                </li>
+                <li class="hamburger__list__items">
+                    <a href="./alert.html">Alert</a>
+                </li>
+                <li class="hamburger__list__items">
+                    <a href="./avatar.html">Avatar</a>
+                </li>
+                <li class="hamburger__list__items">
+                    <a href="./badge.html">Badge</a>
+                </li>
+                <li class="hamburger__list__items">
+                    <a href="./buttons.html">Buttons</a>
+                </li>
+                <li class="hamburger__list__items"><a href="./card.html">Card</a></li>
+                <li class="hamburger__list__items"><a href="./grid.html">Grid</a></li>
+                <li class="hamburger__list__items">
+                    <a href="./image.html">Image</a>
+                </li>
+                <li class="hamburger__list__items">
+                    <a href="./input.html">Input</a>
+                </li>
+                <li class="hamburger__list__items">
+                    <a href="./lists.html">Lists</a>
+                </li>
+                <li class="hamburger__list__items">
+                    <a href="./modal.html">Modal</a>
+                </li>
+                <li class="hamburger__list__items">
+                    <a href="./navigation.html">Navigaton</a>
+                </li>
+                <li class="hamburger__list__items"><a href="./rating.html">Rating</a></li>
+                <li class="hamburger__list__items"><a href="./slider.html">Slider</a></li>
+                <li class="hamburger__list__items"><a href="./toast.html">Toast</a></li>
+                <li class="hamburger__list__items">
+                    <a href="./typography.html">Typography</a>
+                </li>
+            </ul>
+
+            <h3 class="navbar__header">Particle UI</h3>
+            <ul class="navbar__list">
+                <li class="navbar__list__items">
+                    <a href="#"></a>Get Started</li>
+                <li class="navbar__list__items">
+                    <a href="#"></a>Docs</li>
+                <li class="navbar__list__items"><i class="fab fa-github"></i></li>
+            </ul>
+        </nav>
+        <aside class="sidebar">
+            <ul class="text__md">
+                <li class="sidebar__items"><a href="./index.html">Get Started</a></li>
+                <li class="sidebar__items"><a href="./alert.html">Alert</a></li>
+                <li class="sidebar__items"><a href="./avatar.html">Avatar</a></li>
+                <li class="sidebar__items"><a href="./badge.html">Badge</a></li>
+                <li class="sidebar__items"><a href="./buttons.html">Buttons</a></li>
+                <li class="sidebar__items"><a href="./card.html">Card</a></li>
+                <li class="sidebar__items"><a href="./grid.html">Grid</a></li>
+                <li class="sidebar__items"><a href="./image.html">Image</a></li>
+                <li class="sidebar__items"><a href="./input.html">Input</a></li>
+                <li class="sidebar__items"><a href="./lists.html">Lists</a></li>
+                <li class="sidebar__items"><a href="./modal.html">Modal</a></li>
+                <li class="sidebar__items">
+                    <a href="./navigation.html">Navigaton</a>
+                </li>
+                <li class="sidebar__items"><a href="./rating.html">Rating</a></li>
+                <li class="sidebar__items"><a href="./slider.html">Slider</a></li>
+                <li class="sidebar__items"><a href="./toast.html">Toast</a></li>
+                <li class="sidebar__items">
+                    <a href="./typography.html">Typography</a>
+                </li>
+            </ul>
+        </aside>
+        <section class="main__content">
+            <article class="article__container">
+                <h3 class="margin1">Card</h3>
+                <p class="text__lg margin1">
+                    Card is used to display a product information to the user.
+                </p>
+                <h4 class="margin1">Vertical Card with image, badge and dismiss.</h4>
+                <p class="text__lg margin1">
+                    To use a card copy the relevant code given below. By adding the class card__shadow, a shadow will be applied over the card component.
+                </p>
+                <div class="container__example container__flex">
+                    <div class="card card__shadow">
+                        <span class="card__icon right">
+                            <i class="far fa-heart"></i>
+                        </span>
+                        <span class="card__image">
+                            <img src="../card/src/cardImage.jpg" alt="card Image" />
+                        </span>
+                        <div class="card__footer">
+                            <span class="card__title">Vanilla IceCream</span>
+                            <span class="card__details">
+                                <span class="card__details__price__new">₹215</span>
+                            <span class="card__details__price__old">₹300</span>
+                            <span class="card__details__discount">28% off</span>
+                            </span>
+                            <div class="card__buttons">
+                                <button class="btn btn__primary">Add to Cart</button>
+                                <button class="btn btn__secondary">Shop Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card__shadow">
+                        <span class="card__icon right close">
+                            <i class="fas fa-times"></i>
+                        </span>
+                        <span class="card__image">
+                            <img src="../card/src/cardImage.jpg" alt="card Image" />
+                        </span>
+                        <div class="card__footer">
+                            <span class="card__title">Vanilla IceCream</span>
+                            <span class="card__details">
+                                <span class="card__details__price__new">₹215</span>
+                            <span class="card__details__price__old">₹300</span>
+                            <span class="card__details__discount">28% off</span>
+                            </span>
+                            <div class="card__buttons">
+                                <button class="btn btn__primary">Add to Cart</button>
+                                <button class="btn btn__secondary">Shop Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card__shadow">
+                        <span class="card__icon left">
+                            <p>New</p>
+                        </span>
+                        <span class="card__image">
+                            <img src="../card/src/cardImage.jpg" alt="card Image" />
+                        </span>
+                        <div class="card__footer">
+                            <span class="card__title">Vanilla IceCream</span>
+                            <span class="card__details">
+                                <span class="card__details__price__new">₹215</span>
+                            <span class="card__details__price__old">₹300</span>
+                            <span class="card__details__discount">28% off</span>
+                            </span>
+                            <div class="card__buttons">
+                                <button class="btn btn__primary">Add to Cart</button>
+                                <button class="btn btn__secondary">Shop Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card__shadow">
+                        <span class="card__icon right">
+                            <i class="fas fa-heart heart"></i>
+                        </span>
+                        <span class="card__image">
+                            <img src="../card/src/cardImage.jpg" alt="card Image" />
+                        </span>
+                        <div class="card__footer">
+                            <span class="card__title">Vanilla IceCream</span>
+                            <span class="card__details">
+                                <span class="card__details__price__new">₹215</span>
+                            <span class="card__details__price__old">₹300</span>
+                            <span class="card__details__discount">28% off</span>
+                            </span>
+                            <div class="card__buttons">
+                                <button class="btn btn__primary">Add to Cart</button>
+                                <button class="btn btn__secondary">Shop Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="code__example">
+                    <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=material&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=0px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card__shadow%2522%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522card__icon%2520right%2522%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522card__image%2522%253E%250A%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fcard%252Fsrc%252FcardImage.jpg%2522%2520alt%253D%2522card%2520Image%2522%2520%252F%253E%250A%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card__footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__title%2522%253EVanilla%2520IceCream%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__details%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__details__price__new%2522%253E%25E2%2582%25B9215%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__details__price__old%2522%253E%25E2%2582%25B9300%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__details__discount%2522%253E28%2525%2520off%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn__primary%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn__secondary%2522%253EShop%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card%2520card__shadow%2522%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522card__icon%2520right%2520close%2522%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522card__image%2522%253E%250A%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fcard%252Fsrc%252FcardImage.jpg%2522%2520alt%253D%2522card%2520Image%2522%2520%252F%253E%250A%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card__footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__title%2522%253EVanilla%2520IceCream%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__details%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__details__price__new%2522%253E%25E2%2582%25B9215%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__details__price__old%2522%253E%25E2%2582%25B9300%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__details__discount%2522%253E28%2525%2520off%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn__primary%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn__secondary%2522%253EShop%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card%2520card__shadow%2522%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522card__icon%2520left%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253ENew%253C%252Fp%253E%250A%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522card__image%2522%253E%250A%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fcard%252Fsrc%252FcardImage.jpg%2522%2520alt%253D%2522card%2520Image%2522%2520%252F%253E%250A%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card__footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__title%2522%253EVanilla%2520IceCream%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__details%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__details__price__new%2522%253E%25E2%2582%25B9215%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__details__price__old%2522%253E%25E2%2582%25B9300%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__details__discount%2522%253E28%2525%2520off%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn__primary%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn__secondary%2522%253EShop%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                        class="code__snippet code__snippet__lg" sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <h4 class="margin1">Vertical Card with text overlay and text only card.</h4>
+                <div class="container__example container__flex">
+                    <div class="card card__shadow">
+                        <span class="card__icon right">
+                            <i class="fas fa-heart"></i>
+                        </span>
+                        <span class="card__text__overlay">Out of Stock</span>
+                        <span class="card__image">
+                            <img src="../card/src/cardImage.jpg" alt="card Image" />
+                        </span>
+                        <div class="card__footer">
+                            <span class="card__title">Vanilla IceCream</span>
+                            <span class="card__details">
+                                <span class="card__details__price__new">₹215</span>
+                            <span class="card__details__price__old">₹300</span>
+                            <span class="card__details__discount">28% off</span>
+                            </span>
+                            <div class="card__buttons">
+                                <button class="btn btn__primary">Add to Cart</button>
+                                <button class="btn btn__secondary">Shop Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card__shadow">
+                        <div class="card__heading">Vanilla Ice Cream</div>
+                        <div class="card__description">
+                            Vanilla is frequently used to flavor ice cream, especially in North America, Asia, and Europe. Vanilla ice cream, like other flavors of ice cream, was originally created by cooling a mixture made of cream, sugar, and vanilla above a container of ice and
+                            salt.
+                        </div>
+                        <button class="btn btn__primary">Learn More!</button>
+                    </div>
+                </div>
+
+                <div class="code__example">
+                    <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=material&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=0px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card__shadow%2522%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522card__icon%2520right%2522%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522card__text__overlay%2522%253EOut%2520of%2520Stock%253C%252Fspan%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522card__image%2522%253E%250A%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fcard%252Fsrc%252FcardImage.jpg%2522%2520alt%253D%2522card%2520Image%2522%2520%252F%253E%250A%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card__footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__title%2522%253EVanilla%2520IceCream%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__details%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__details__price__new%2522%253E%25E2%2582%25B9215%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__details__price__old%2522%253E%25E2%2582%25B9300%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__details__discount%2522%253E28%2525%2520off%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn__primary%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn__secondary%2522%253EShop%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card%2520card__shadow%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card__heading%2522%253EVanilla%2520Ice%2520Cream%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card__description%2522%253E%250A%2520%2520%2520%2520%2520%2520Vanilla%2520is%2520frequently%2520used%2520to%2520flavor%2520ice%2520cream%252C%2520especially%2520in%2520North%2520America%252C%2520Asia%252C%2520and%2520Europe.%2520Vanilla%2520ice%2520cream%252C%2520like%2520other%2520flavors%2520of%2520ice%2520cream%252C%2520was%2520originally%2520created%2520by%2520cooling%2520a%2520mixture%2520made%2520of%2520cream%252C%2520sugar%252C%2520and%2520vanilla%2520above%2520a%2520container%2520of%2520ice%2520and%250A%2520%2520%2520%2520%2520%2520salt.%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn__primary%2522%253ELearn%2520More%21%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                        class="code__snippet code__snippet__lg" sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h4 class="margin1">Horizontal Card</h4>
+                <div class="container__example container__flex">
+                    <div class="card card__horizontal card__shadow">
+                        <span class="card__image">
+                            <img src="../card/src/cardImage.jpg" alt="card Image" />
+                        </span>
+                        <div class="card__footer">
+                            <span class="card__title">Vanilla IceCream</span>
+                            <span class="card__details">
+                                <span class="card__details__price__new">₹215</span>
+                            <span class="card__details__price__old">₹300</span>
+                            <span class="card__details__discount">28% off</span>
+                            </span>
+                            <div class="card__buttons">
+                                <button class="btn btn__primary">Add to Cart</button>
+                                <button class="btn btn__secondary">Shop Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="code__example">
+                    <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=material&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=0px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card__horizontal%2520card__shadow%2522%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522card__image%2522%253E%250A%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fcard%252Fsrc%252FcardImage.jpg%2522%2520alt%253D%2522card%2520Image%2522%2520%252F%253E%250A%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card__footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__title%2522%253EVanilla%2520IceCream%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__details%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__details__price__new%2522%253E%25E2%2582%25B9215%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__details__price__old%2522%253E%25E2%2582%25B9300%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__details__discount%2522%253E28%2525%2520off%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn__primary%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn__secondary%2522%253EShop%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        class="code__snippet code__snippet__lg" sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+
+                <h4 class="margin1">Reponsive Card</h4>
+                <p class="text__lg margin1">
+                    This card changes its orientation from horizontal to vertical according to the screen size.
+                </p>
+                <div class="container__example container__flex">
+                    <div class="card card__responsive card__shadow">
+                        <span class="card__image">
+                            <img src="../card/src/cardImage.jpg" alt="card Image" />
+                        </span>
+                        <div class="card__footer">
+                            <span class="card__title">Vanilla IceCream</span>
+                            <span class="card__details">
+                                <span class="card__details__price__new">₹215</span>
+                            <span class="card__details__price__old">₹300</span>
+                            <span class="card__details__discount">28% off</span>
+                            </span>
+                            <div class="card__buttons">
+                                <button class="btn btn__primary">Add to Cart</button>
+                                <button class="btn btn__secondary">Shop Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="code__example">
+                    <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=material&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=0px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card__responsive%2520card__shadow%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522card__image%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fcard%252Fsrc%252FcardImage.jpg%2522%2520alt%253D%2522card%2520Image%2522%2520%252F%253E%250A%2520%2520%253C%252Fspan%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card__footer%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__title%2522%253EVanilla%2520IceCream%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__details%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__details__price__new%2522%253E%25E2%2582%25B9215%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__details__price__old%2522%253E%25E2%2582%25B9300%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__details__discount%2522%253E28%2525%2520off%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn__primary%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn__secondary%2522%253EShop%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        class="code__snippet code__snippet__lg" sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </article>
+            <hr />
+            <div class="bottom__nav">
+                <div class="previous__page text__lg">
+                    <a href="./buttons.html">
+                        < Buttons</a>
+                </div>
+                <div class="next__page text__lg">
+                    <a href="./grid.html">Grid ></a>
+                </div>
+            </div>
+        </section>
+        <footer class="footer text__lg text__center">
+            Made with <i class="fas fa-heart"></i> by Rohit
+        </footer>
+    </div>
+
+    <script src="../navigation/naviagtion.js"></script>
+</body>
+
+</html>
