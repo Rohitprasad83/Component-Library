@@ -1,6 +1,4 @@
-@import url(../utilities/reset.css);
 @import url(../avatar/avatar.css);
-
 .icon {
     font-size: 4rem;
     margin: 1rem;
@@ -10,6 +8,7 @@
     position: relative;
     margin: 1rem;
 }
+
 .badge__number {
     font-size: 1.2rem;
     position: absolute;
@@ -30,6 +29,7 @@
     background-color: var(--secondary);
     color: var(--white);
 }
+
 .badge__error {
     background-color: var(--error);
     color: var(--white);

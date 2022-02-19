@@ -1,34 +1,33 @@
-@import url(../utilities/reset.css);
 @import url(../text\ utilities/text.css);
-
 .container {
-  width: 90vw;
-  margin: 1rem auto;
+    width: 90vw;
+    margin: 1rem auto;
 }
+
 .grid {
-  display: grid;
+    display: grid;
 }
 
 .grid__col__2 {
-  width: 100%;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
 }
 
 .grid__item {
-  border: 1px solid var(--dark);
-  text-align: center;
-  line-height: 6rem;
-  border-radius: 5px;
+    border: 1px solid var(--dark);
+    text-align: center;
+    line-height: 6rem;
+    border-radius: 5px;
 }
 
 .grid__col__3 {
-  width: 100%;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
 }
 
 .grid__100 {
-  grid-template-columns: repeat(auto-fill, 100px);
-  gap: 1rem;
+    grid-template-columns: repeat(auto-fill, 100px);
+    gap: 1rem;
 }
