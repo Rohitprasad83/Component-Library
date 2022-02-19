@@ -1,4 +1,5 @@
 @import url(../utilities/reset.css);
+@import url(../text\ utilities/text.css);
 .navbar {
     display: flex;
     align-items: center;
@@ -11,9 +12,7 @@
 }
 
 .navbar__header {
-    <<<<<<< HEAD margin-left: 5rem;
-    =======margin-left: 4rem;
-    >>>>>>>2354c360fa35227a954412bce36994b01cdb9c54
+    margin-left: 5rem;
 }
 
 .navbar__list {
@@ -38,23 +37,20 @@
     margin-right: 1rem;
 }
 
+.hide {
+    display: none;
+}
+
 @media only screen and (max-width: 768px) {
-    .navbar__header {
-        margin-left: 0;
-        font-size: 3rem;
-    }
-    .hamburger {
-        display: flex;
-    }
     .hamburger__list {
-        width: 22rem;
+        width: 18rem;
         height: auto;
-        box-shadow: 5px 8px 8px rgb(0, 0, 0, 0.2);
+        border: solid var(--dark);
+        border-width: 2px 0 2px 2px;
         position: absolute;
-        z-index: 1;
         left: 0;
         top: 0;
-        backdrop-filter: blur(22rem);
+        backdrop-filter: blur(18rem);
     }
     .hamburger__list__items {
         cursor: pointer;
@@ -62,7 +58,7 @@
         margin: 2rem 1rem;
     }
     .hamburger__top {
-        width: 22rem;
+        width: 18rem;
         display: flex;
         align-items: center;
         padding: 1rem;
@@ -78,25 +74,29 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .navbar {
+        padding: 1rem 0.2rem;
+    }
+    .navbar__header {
+        margin-left: 0;
+        font-size: 3rem;
+    }
     .navbar__list {
         margin-right: 0;
     }
     .navbar__list__items {
         font-size: 1.4rem;
     }
-    .navbar__header {
-        font-size: 2rem;
-    }
 }
 
 @media only screen and (min-width: 768px) {
     .hamburger {
-        display: none !important;
+        display: none;
     }
     .hamburger__list {
-        display: none !important;
+        display: none;
     }
     .navbar__header {
-        display: block !important;
+        display: block;
     }
 }
