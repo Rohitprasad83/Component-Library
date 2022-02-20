@@ -43,24 +43,26 @@
 
 @media only screen and (max-width: 768px) {
     .hamburger__list {
-        width: 18rem;
+        width: 100%;
         height: auto;
         position: absolute;
         left: 0;
         top: 0;
-        backdrop-filter: blur(18rem);
     }
     .hamburger__list__items {
         cursor: pointer;
         font-size: 2rem;
         margin: 2rem 1rem;
     }
+    .hamburger__list__items:last-child {
+        margin-bottom: 3rem;
+    }
     .hamburger__top {
-        width: 18rem;
+        width: 100%;
         display: flex;
         align-items: center;
         padding: 1rem;
-        justify-content: space-between;
+        text-decoration: underline;
     }
     .hamburger__close {
         margin-left: auto;
