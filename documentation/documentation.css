@@ -218,5 +218,6 @@
         width: 25rem;
         overflow: scroll;
         height: 70rem;
+        background-color: var(--white);
     }
 }

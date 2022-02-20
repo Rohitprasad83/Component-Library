@@ -1,6 +1,6 @@
 @import url(./reset.css);
-@import url(../buttons/buttons.css);
-@import url(../text\ utilities/text.css);
+@import url(../components/buttons/buttons.css);
+@import url(../components/text\ utilities/text.css);
 .navbar {
     display: flex;
     justify-content: space-between;
