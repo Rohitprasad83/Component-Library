@@ -41,6 +41,7 @@
 }
 
 .brand__name {
+    color: var(--secondary);
     text-align: center;
     font-size: 5rem;
 }
@@ -61,7 +62,11 @@
     width: 15rem;
 }
 
-.btn__dark__outlined:hover {
+.btn__secondary__outlined {
+    border: 2px solid var(--secondary);
+}
+
+.btn__secondary__outlined:hover {
     background-color: var(--bg-white);
     color: var(--dark);
 }
