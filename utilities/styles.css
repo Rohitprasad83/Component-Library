@@ -41,7 +41,7 @@
 }
 
 .brand__name {
-    color: var(--primary);
+    color: var(--secondary);
     text-align: center;
     font-size: 5rem;
 }
@@ -62,11 +62,11 @@
     width: 15rem;
 }
 
-.btn__primary__outlined {
-    border: 2px solid var(--primary);
+.btn__secondary__outlined {
+    border: 2px solid var(--secondary);
 }
 
-.btn__primary__outlined:hover {
+.btn__secondary__outlined:hover {
     background-color: var(--bg-white);
     color: var(--dark);
 }
