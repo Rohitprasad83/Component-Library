@@ -77,6 +77,10 @@
     transition: 0.3s all ease-in-out;
 }
 
+.sidebar__items:last-child {
+    margin-bottom: 10rem;
+}
+
 
 /* ---- only for components ---- */
 
