@@ -50,6 +50,10 @@
     background-color: var(--gray);
 }
 
+.hamburger__list__items:last-child {
+    margin-bottom: 7rem;
+}
+
 .hamburger {
     margin-right: 2rem;
 }
@@ -68,14 +72,13 @@
     width: 100%;
 }
 
-.sidebar__items:last-child {
-    margin-bottom: 7rem;
-}
-
 .sidebar__items:hover {
     background-color: var(--gray);
     transition: 0.3s all ease-in-out;
 }
+
+
+/* ---- only for components ---- */
 
 .fa-heart {
     color: var(--secondary);
@@ -152,9 +155,6 @@
     border-radius: 8px;
 }
 
-
-/* ---- only for components ---- */
-
 .container__flex {
     width: 100%;
     display: flex;
@@ -224,7 +224,11 @@
     .navbar>.hamburger__list {
         width: 25rem;
         overflow: scroll;
-        height: 72rem;
+        scroll-behavior: smooth;
+        height: 100vh;
         background-color: var(--white);
+    }
+    .hamburger {
+        margin-right: 3rem;
     }
 }
